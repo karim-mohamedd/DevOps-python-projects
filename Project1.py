@@ -1,5 +1,5 @@
+import functions
 import paramiko
-
 target=[
     {"hostname": "192.168.206.130" , "port":22,"username": "root","password": "123"},
     {"hostname": "192.168.206.130" , "port":22,"username": "Hakem","password": "123"}
@@ -15,10 +15,13 @@ for host in target:
 
         client.connect(hostname=host["hostname"], port=host["port"], username=host["username"], password=host["password"])
         stdin, stdout, stderr = client.exec_command(cmd)
-        print(f"Output from {host['username']}@{host['hostname']}:")
+        print(f"Output from {host['username']}@{host['hostname']}:\n")
+        functions.save_as_json(stdout.read().decode(), "remote-data.json")
         print(stdout.read().decode())
         
     except Exception as e:
         print(f"Failed to connect to {host['hostname']} as {host['username']}: {e}")
     finally:
         client.close()
+
+
