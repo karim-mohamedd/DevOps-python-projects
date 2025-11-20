@@ -1,9 +1,3 @@
-Here is a **clean, simple, professional** README for your **Python DevSecOps Projects** repository.
-It doesn’t go into too much detail (because each project will have its own README).
-It also includes your contribution with your friend **Ahmed Abdelhakim (ahmedabdelhakim13)**.
-
----
-
 # 🛡️ Python Projects for DevSecOps
 
 This repository contains a collection of Python projects focused on **DevOps**, **Security**, and **Automation** practices.
@@ -73,10 +67,3 @@ Each project includes:
 ## ⭐ Support
 
 If you find these projects useful, consider giving the repository a **star** ⭐ on GitHub.
-
----
-
-If you want, I can also create:
-✅ Individual README templates for each project
-✅ Folder structure
-✅ Badges for GitHub (build/pass, Python version, license)
