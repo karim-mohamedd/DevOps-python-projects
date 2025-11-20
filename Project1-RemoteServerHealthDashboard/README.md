@@ -1,7 +1,3 @@
-Here is an improved, clean, professional, and easy-to-read **README.md** for your project — simple but high-quality and ready for GitHub:
-
----
-
 # 🖥️ Remote Server Health Dashboard
 
 The **Remote Server Health Dashboard** is a lightweight Python tool that connects to remote Linux servers using SSH and displays their health status in a simple web interface.
@@ -125,10 +121,3 @@ Feel free to open an issue if you want to discuss improvements.
 
 If you like this project, please give it a **⭐ on GitHub** — it helps a lot!
 
----
-
-If you want, I can also generate:
-✅ Full working **code**
-✅ Dashboard **HTML template**
-✅ Example server commands
-Just tell me **“generate the code”**.
